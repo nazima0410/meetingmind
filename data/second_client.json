@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Zenith Retail Kickoff",
+    "date": "2026-08-11",
+    "participants": ["Priya", "Daniel", "Kavya"],
+    "notes": "Kickoff w/ Zenith Retail. Priya (Head of Ops) wants a mobile inventory app for their 25 stores. Big priority = offline mode, store staff have bad wifi. Target launch: December, ahead of holiday season, hard deadline. Daniel (IT Manager) worried about barcode scanner compatibility, they use old Zebra devices. Kavya (Finance) wants cost breakdown per phase, prefers detailed written reports w/ numbers. Budget cap discussed, no final figure yet. Decision: pilot in 3 stores first. TODO: Daniel sends device list by 8/15, Kavya shares budget template."
+  },
+  {
+    "title": "Zenith Retail Design Review",
+    "date": "2026-09-01",
+    "participants": ["Priya", "Daniel", "Kavya"],
+    "notes": "Design review. Priya approved store-manager dashboard mockups, asked for bigger buttons for staff on the floor. Daniel confirmed Zebra models, scanner SDK works but needs testing on the oldest devices. Kavya flagged phase 2 cost is 15% over estimate, needs justification before sign-off. Launch still December. Commitment: Daniel to run scanner compatibility test by 9/10 and share results. Unresolved: offline sync conflict handling, who owns store-level support after launch. Next review mid-October."
+  }
+]

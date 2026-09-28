@@ -1,0 +1,20 @@
+[
+  {
+    "title": "NovaTech Discovery",
+    "date": "2026-08-04",
+    "participants": ["Sarah", "Rahul", "Maya", "Arjun"],
+    "notes": "Kickoff w/ NovaTech. Attendees: Sarah, Rahul, Maya, Arjun. Sarah opened w/ business goals - wants to cut customer onboarding time from ~3 wks to under 1 wk, and get a client portal live for their top 40 accounts. Big thing for her = timeline. Target launch: September, she was firm on that, board wants it before Q4 planning. Sarah said she prefers concise updates - short bullets, no long decks, max half a page. Rahul asked what systems the portal has to talk to; Maya said CRM + billing, will send list. Client expectations: weekly check-in, one point of contact (Arjun). Rahul cautious but no blockers yet, needs to see API docs. Arjun to set up shared tracker. Open q: who signs off on scope - Maya thinks Sarah, Sarah says exec sponsor. TODO: Maya sends system list by 8/7, Arjun sends tracker + weekly invite. Next mtg = requirements, ~2 wks."
+  },
+  {
+    "title": "NovaTech Requirements",
+    "date": "2026-08-18",
+    "participants": ["Sarah", "Rahul", "Maya", "Arjun"],
+    "notes": "Requirements session. Maya went thru feature list. Top asks: dark mode for the portal (her team works late, was pretty insistent), bulk export to CSV, role-based access. Security is her big worry - needs SSO (Okta) and encryption at rest + in transit, plus audit logs. Rahul said SSO doable, audit logs might slip to phase 2. Integrations: CRM (Salesforce) and billing (Stripe). Maya's system list from 8/7 was incomplete - missing their support desk tool, Arjun to chase. Sarah asked for one-page summary of decisions, keep it short. Timeline: Sarah still holding Sept launch, Rahul said 'tight but ok if scope stays fixed'. Arjun flagged scope creep risk w/ dark mode + export both added late. Decision: dark mode IN for launch, CSV export moves to phase 2. Rahul to draft tech spec by 8/28. Maya to confirm Okta tenant details. Not sure yet on data residency - Maya checking w/ legal."
+  },
+  {
+    "title": "NovaTech Progress Review",
+    "date": "2026-09-08",
+    "participants": ["Sarah", "Rahul", "Maya", "Arjun"],
+    "notes": "Progress review. Done so far: login + SSO working in staging, dark mode ~70%, Salesforce sync in progress. Rahul raised concern re API performance - list endpoints slow (~4s) w/ big accounts, worried it won't hold under real load at launch. Says needs proper load testing before go-live. Commitment: Rahul to have performance test done by Friday (9/11) and share results. Sarah asked for short status, wants only red/yellow/green. Timeline: given perf risk + data residency still open, Arjun proposed moving launch from September to October. Sarah not thrilled but agreed. DECISION: launch now targeted for October. Maya ok w/ Oct as long as SSO + encryption ship together. Unresolved: data residency answer from legal still pending; audit logs status unclear. Arjun to update tracker + risk log. Next: final review ~9/28."
+  }
+]
