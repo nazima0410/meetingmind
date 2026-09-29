@@ -1,71 +1,12 @@
-# Java
-*.class
-*.log
-*.ctxt
-.mtj.tmp/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-hs_err_pid*
-replay_pid*
-
-# Maven
-target/
-
-# IDE
-.classpath
-.project
-.settings/
-.idea/
-*.iml
-.vscode/
-
-# Environment / Secrets
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
 .env
 .env.*
 !.env.example
-*.key
-*.pem
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.venv/
-venv/
-env/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Node
-node_modules/
-dist/
-.next/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# OS
+*.log
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# Temporary files
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# Coverage
-coverage/
-
-# Python virtual environment
-agent/.venv/
-agent/.venv/
+.vscode/
+.idea/
